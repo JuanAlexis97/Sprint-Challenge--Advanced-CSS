@@ -73,3 +73,62 @@
     }
   }
 }// home
+
+#signUpBtn{
+  border:2px solid black;
+  font-size: @f-size *2;  
+  border-radius: 15px;
+  .bg-clr(forestgreen);
+  color:black;
+  &:hover{
+    .bg-clr(blue);
+    color:white;
+  }
+  @media @mobile{
+    display: block;
+    width: 100%;
+  }
+  }
+
+#picOfSpace{
+  width: 100%;
+}
+
+#blast{
+  @media @mobile{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.sky{
+  @media @mobile{
+    display: none;
+  }
+}
+.launch{
+  @media @mobile{
+    display: none;
+  }
+}
+
+#walk{
+  @media @mobile{
+  flex-direction: column-reverse;
+  justify-content: ;
+  }
+}
+
+#walkImg{
+  @media @mobile{
+    width: 200%;
+    order: 1;
+  }
+}
+
+#walkText{
+  @media @mobile{
+    width: 100%;
+  }
+}
